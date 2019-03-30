@@ -1,0 +1,53 @@
+body{
+  background: #117A65  ;
+}
+h1{
+  color: red;
+}
+.p{
+  width:90%;
+  height:90%;
+  background: #BB8FCE  ;
+  border: 2px solid black;
+  border-radius: 5px;
+
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+.c,.s{
+  width:90%;
+  height:10%;
+  border:2px solid brown;
+  border-radius: 2px;
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+  background: #E74C3C;
+}
+.details{
+  width:40%;
+
+  border:2px solid brown;
+  border-radius: 2px;
+  margin:2%;
+  padding:2%;
+  background-color:#E74C3C;
+  text-align: center;
+}
+input,select{
+  width:80%;
+  margin:2%;
+}
+button{
+  width:10%;
+  height: 100%;
+  color: black;
+  align-self: center;
+  border: 2px solid black;
+  font-style: oblique;
+
+
+
+}
